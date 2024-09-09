@@ -14,6 +14,7 @@
 .person p{
   margin: 0;
   padding: 0;
+  color: black;
 }
 
 .person-picture{
@@ -98,7 +99,7 @@ Global Styles
 }
 body {
   font-family: var(--ff-secondary);
-  background: var(--clr-grey-10);
+  background: #B4D6CD;
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -188,7 +189,7 @@ Navbar
 ===============
 */
 nav {
-  background: var(--clr-white);
+  background: #FFDA76;
   box-shadow: var(--light-shadow);
 }
 .nav-header {
