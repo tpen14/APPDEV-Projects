@@ -8,13 +8,12 @@
   margin-bottom: 20px;
   text-align: center;
   align-content: center;
-  background-image: url(/src/img/pink.jpg);
+  background-image: url(/src/assets/pink.jpg);
   }
 
 .person p{
   margin: 0;
   padding: 0;
-  color: black;
 }
 
 .person-picture{
@@ -99,7 +98,7 @@ Global Styles
 }
 body {
   font-family: var(--ff-secondary);
-  background: #B4D6CD;
+  background: var(--clr-grey-10);
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -152,6 +151,8 @@ p {
   }
   body {
     font-size: 1rem;
+    background-image: url(/src/assets/bg.gif);
+  
   }
   h1,
   h2,
@@ -189,8 +190,9 @@ Navbar
 ===============
 */
 nav {
-  background: #FFDA76;
+  background: var(--clr-white);
   box-shadow: var(--light-shadow);
+  background-color: #d6e6ff;
 }
 .nav-header {
   display: flex;
