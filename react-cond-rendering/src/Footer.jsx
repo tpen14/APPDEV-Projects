@@ -3,7 +3,7 @@ export default function Footer(){
         <>
         <hr />
         <footer>
-            <p>&copy; My Other Food Website || Written by: Stephen Ezekiel C. Robles</p>
+            <p>&copy; {new Date().getFullYear()} My Other Food Website || Written by: Stephen Ezekiel C. Robles</p>
             </footer>
         </>
     )
