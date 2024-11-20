@@ -1,0 +1,42 @@
+p, h4{
+    text-align: center;
+}
+
+h1{
+    margin: 5px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    margin: 20px;
+    padding: auto;
+    display: inline;
+    text-align: center;
+}
+
+
+footer{
+    padding: 20px;
+    margin: auto;
+    background-color: beige;
+}
+.student-card{
+    background-color: antiquewhite;
+
+}
+.form-container{
+  display: flex; /* Magic starts here, turning your container into a flex container */
+  justify-content: center; /* This centers the child horizontally */
+  align-items: center; /* And this centers it vertically */
+  height: auto;
+  background-color: antiquewhite;
+  padding: 15px;
+}
+
+header{
+    background-color: beige;
+}

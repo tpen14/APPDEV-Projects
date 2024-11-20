@@ -1,0 +1,88 @@
+div {
+    background-color: #ffe4f5; /* Soft pink background */
+    padding: 20px;
+    border: 2px solid #00a676; /* Bright green border */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Heading styles */
+h1 {
+    color: #00a676; /* Vibrant green for main heading */
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 2px 2px #ff69b4; /* Pink shadow for a fun, bold look */
+}
+
+h4 {
+    color: #ff69b4; /* Hot pink for subheadings */
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Input and textarea styling */
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #00a676; /* Green border */
+    border-radius: 5px;
+    background-color: #fff; /* White background for contrast */
+    color: #333;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #ff69b4; /* Pink border on focus */
+    box-shadow: 0 0 5px #ff69b4;
+}
+
+/* Button styling */
+button {
+    background-color: #00a676; /* Green background */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff69b4; /* Switch to pink on hover */
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Game review history section */
+p {
+    color: #555; /* Neutral color for text */
+    font-style: italic;
+    margin-top: 10px;
+}
+
+hr {
+    border: 1px solid #00a676; /* Green horizontal rule */
+    margin: 20px 0;
+}
+input[type="text"], input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #00a676; /* Green border */
+    border-radius: 5px;
+    background-color: #fff; /* White background */
+    color: #333;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
